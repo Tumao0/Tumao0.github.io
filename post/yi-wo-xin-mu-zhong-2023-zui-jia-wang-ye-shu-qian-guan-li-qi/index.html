@@ -1,0 +1,319 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>【译】我心目中 2023 最佳网页书签管理器 | Tumao</title>
+
+<link rel="shortcut icon" href="https://Tumao0.github.io/favicon.ico?v=1735793826836">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Tumao0.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.1/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script> 
+    
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Tumao
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1735793826836"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    【译】我心目中 2023 最佳网页书签管理器
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2024-02-14 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>写在前面<br>
+火箭君我也曾经为网页书签管理折腾过一段时间。如果我们深度依赖现代互联网服务，书签就会显著增多。当书签变得过多时，势必要用一种方式进行管理。 我折腾过 Toby， Workona， 现在回归到了 Chrome 浏览器自带书签管理。</p>
+<p>之所以回归，还是意识到「生产力」的本质来自于「减法思维」，无情的减掉不用的东西，环节或流程，而不是为了增加一个工具而增加一个工具。</p>
+<p>尽管如此，下面这篇译文，介绍了很多书签工具，或许恰好适合有某种需求的小伙伴。其中也有一些是我亲自折腾过的，我将它翻译列出供大家参考。 还是那句话，选择自己合适的工具，减少无用的折腾开销。</p>
+<p>原文：https://denshub.com/en/best-bookmark-manager-2023/<br>
+原作者：Denis Rasulev</p>
+<p>火箭君做了翻译，编辑和节选（原文太长），以下正文。</p>
+<p>正文</p>
+<p>对于许多经常使用互联网的人来说，为网站和页面添加书签（bookmark）是一种常见做法。</p>
+<p>书签使我们能够轻松访问我们最喜欢的网站和页面，而不必每次都记住它们的确切 URL 或搜索它们。然而，随着我们添加书签的网站和页面数量的增加，跟踪它们可能会变得困难。这就是书签管理器派上用场的地方。</p>
+<p>书签管理器是一种帮助我们以更有效的方式组织和管理书签的工具。有许多不同的书签管理器可用，每个都有自己独特的特性和功能。<br>
+下面是 我在 2023 年看到的一些解决方案，它们将帮助我们选择最适合需求的书签管理器。</p>
+<p>注意：「书签」和「链接」在本文中同义使用，即它们的含义相同 – 指向网站、页面或任何其他内容的已保存链接。</p>
+<p>浏览器+自带<br>
+如果只有少量书签，网络浏览器附带的内置书签管理器可能足以满足需求。这些自带的管理器通常允许我们添加、删除、排序、分组、搜索、导出和导入链接。</p>
+<p>经常使用的链接可以分组到文件夹中并放置在快速访问面板上。我们需要的一切都将始终触手可及。</p>
+<p>如果我们需要撰写论文或书籍，请使用 Zotero、Mendeley 或 Scrivener 等特殊软件 — 这里有比浏览器书签更多的链接管理和引用功能。</p>
+<p>但是，如果我们有大量的书签，这就可能需要考虑使用更强大的书签管理器来提供附加特性和功能。</p>
+<p>Raindrop</p>
+<p>Raindrop 是一款多功能书签管理器，适合广泛的用户，包括普通用户、创意艺术家和高级技术人员。（火箭君注：Raindrop 是一款老牌书签管理工具，简直暴露年龄）</p>
+<p>除了管理书签之外，Raindrop 还可以用于保存和组织我们在线工作时遇到的其他类型的内容，例如文章、照片和视频、书籍和文档。使用Raindrop，可以创建集合来组织保存的内容，使用内置图标以可视方式排列它，标记它并过滤它以查找特定项目。 Raindrop 的付费版本还允许我们删除重复和损坏的链接。</p>
+<p>如果是高级用户，我们可以使用 IFTTT 和 Zapier 服务以及公共 API 自定义和自动化我们的流程。免费版本提供基本内容搜索。当我们订阅时，该服务还提供文档本身内容（网页和 PDF 文件）的搜索。</p>
+<p>除了强大的组织和标记功能外，Raindrop 还为我们的书签和文件提供自动备份，以防止数据丢失。这在发生灾难（例如硬件故障或计算机崩溃）时特别有用。<br>
+Raindrop 的付费版本还允许我们在 Dropbox 或 Google Drive 上永久保留网页，确保即使原始网页不再在线可用，我们也可以访问它们。</p>
+<p>支持的平台：Raindrop.io 可作为 Chrome、Firefox、Safari 和 Edge 的扩展。还有适用于 Windows、Mac、iPad、iPhone 和 Android 的 Web 应用程序和本机应用程序。</p>
+<p>官方网站：https://raindrop.io/</p>
+<p>Start.me</p>
+<p>另一个相当有趣的解决方案是 Start.me。它不仅是一个书签管理器，也是一种组织浏览器「起始页」的方法。（火箭君注：这类工具最近太多了，快要成为独立开发者必做的项目了）</p>
+<p>除了链接集合之外，我们还可以添加注释、任务和其他信息小部件 – 从时钟和天气到财务和 Google 分析。一个有趣的功能是热门网站。排名基于统计所有用户的链接数量。换句话说，如果大多数人将 YouTube 添加到他们的书签中，那么这个网站就会在该服务的评级中获得第一名。</p>
+<p>支持的平台：Chrome、Firefox、Safari、Opera、IE 和 Edge 等浏览器的扩展。还有适用于 iOS 和 Android 的应用程序。</p>
+<p>官方网站：https://about.start.me/</p>
+<p>Papaly</p>
+<p>这个书签管理器的想法类似于 Start.me，但这个解决方案要简单得多。界面虽然美观，但有点粗糙，而且相当“贴心”。它对点击的响应速度非常慢，以至于很引人注目并且可能很烦人。</p>
+<p>尽管如此，它具有存储和组织书签的所有必要功能。</p>
+<p>链接可以分为可以用颜色编码的类别，并且还可以将注释保存到每个类别和链接。有一个特殊的快速访问面板可以处理常用的书签。</p>
+<p>支持的平台：仅作为 Chrome 的扩展程序提供。有一个适用于 iOS 的应用程序，但仅适用于美国市场。</p>
+<p>官方网站：https://papaly.com/</p>
+<p>Bookmark Ninja</p>
+<p>Bookmark Ninja 是一款纯粹的在线书签管理器，可在任何浏览器（Chrome、Firefox、Edge、Safari、Internet Explorer、Opera、Brave 等）以及任何平台（包括 Windows、macOS 和各种移动设备）中使用。</p>
+<p>它为我们的书签提供了两个主要视图：一个带有选项卡的面板，每个选项卡都可以有自己的类别，以及一个简单的列表视图，该视图提供每个链接的更多详细信息，并允许执行组操作，例如移动和删除链接以及添加和编辑标签。</p>
+<p>Ninja 包含一个特殊的书签，我们可以使用它快速保存来自任何网站的链接，并且它与许多其他生产力工具（例如 Trello 和 Evernote）集成。</p>
+<p>所有存储的信息都是私人的，但我们可以选择通过公共或受密码保护的链接与其他人共享单个链接或组。</p>
+<p>Bookmark Ninja 没有免费版本，但提供一个月的试用期。</p>
+<p>官方网站：https://www.bookmarkninja.com/</p>
+<p>Toby</p>
+<p>Toby 是一款流行的书签管理器，其目标是比传统的书签工具更好。 Toby 的主要优点之一是其简单性和易用性。借助 Toby，我们可以从任何设备快速轻松地保存、组织和访问书签。</p>
+<p>Toby 的主要功能之一是它能够创建工作区，工作区本质上是书签的文件夹。我们可以为不同的项目或主题创建多个工作区，并在它们之间轻松切换以访问需要的书签。<br>
+这可以帮助我们在处理不同任务时保持井井有条并节省时间。</p>
+<p>除了工作区之外，Toby 还提供了一系列其他有用的功能，例如标记书签、按关键字搜索书签以及在不同设备之间导入和导出书签的功能。</p>
+<p>它还与其他生产力工具集成，例如 Trello 和 Asana，使其易于与其他工作流程结合使用。</p>
+<p>（火箭君注：我最喜欢的是 「一键保存」 当前打开的窗口，成为一个会话书签组 session）</p>
+<p>支持的平台：Chrome、Firefox、Edge 的扩展。</p>
+<p>官方网站：https://www.gettoby.com/</p>
+<p>Lasso</p>
+<p>Lasso main application page<br>
+Lasso 应用主页面</p>
+<p>Lasso 可以轻松保存和组织我们在网络上发现的所有有趣内容。该应用程序将自己定位为具有书签管理器功能的在互联网上组织研究的工具。</p>
+<p>该解决方案通过提供多种保存、搜索、浏览、协作和组织方式来改进标准书签系统。<br>
+可以导入现有链接，也可以通过扩展程序或小书签（保存为浏览器书签的小型 JavaScript 程序）添加新链接。</p>
+<p>书签可以组织成集合，并提供标准模板。添加链接时，我们可以编辑其标题、描述并使用标签对其进行分类。还有一个选项可以添加图像以便于链接识别。</p>
+<p>应用程序中有四种类型的集合显示：带描述的链接、带过滤器的表格、链接卡和地理地图。这些对于研究和比较信息都有好处，但也许我们会发现这种类型的链接显示也很方便。</p>
+<p>可以自己或最多五人的团队免费使用该应用程序。</p>
+<p>支持的平台：作为 Chrome 和其他浏览器的扩展提供。有适用于 iOS 和 Android 的移动应用程序，但显然开发人员没有足够的资源来完成所有事情 – 这些应用程序的评级相当低。</p>
+<p>官方网站：https://www.lasso.net/go/</p>
+<p>Pocket</p>
+<p>Pocket bookmark manager works anywhere<br>
+袖珍书签管理器可在任何地方使用</p>
+<p>Pocket 是一项流行的服务，主要用于保存网络上有趣的内容。虽然它不是专门的书签管理器，但它确实具有一些对于书签管理有用的功能。 （火箭君注，很久以前火箭君有过介绍）</p>
+<p>有多种方法可以将内容保存到 Pocket，包括直接在 Web 应用程序中添加链接或使用适用于大多数主要浏览器的扩展程序。我们还可以通过电子邮件将链接发送到特殊地址，Pocket 与 1,500 多个不同的应用程序集成。</p>
+<p>Pocket 还允许我们突出显示文本文章的重要部分并在特殊部分中查看它们，并且它会自动将文本文章和视频分组在一起。</p>
+<p>Pocket 拥有适用于 iOS 和 Android、Windows 和 macOS 的本机应用程序，非常方便，可以在任何移动设备上处理内容。 Pocket API 可供开发人员使用。</p>
+<p>Pocket 的付费版本包含的功能可以帮助我们保存内容（即使原始内容已不存在）、建议标签、进行全文搜索以及提供更广泛的字体选择。</p>
+<p>支持的平台：Web 界面、Chrome 和 Firefox 扩展、iOS、Android、Windows、Windows 和 macOS 应用程序的移动应用程序。</p>
+<p>官方网站：https://getpocket.com/en/</p>
+<p>WebCull</p>
+<p>WebCull 是一个在线书签管理器，旨在让我们轻松地从任何设备保存、组织和访问书签。 WebCull 的主要优点之一是其简单性和易用性。通过干净且用户友好的界面，我们可以快速保存和分类书签，并轻松查找和访问我们需要的书签。</p>
+<p>除了标签和文件夹之外，WebCull 还提供了一系列其他有用的功能，例如通过关键字搜索书签、在不同设备之间导入和导出书签以及自定义书签列表的外观的能力。它还与流行的生产力工具集成，例如 Trello 和 Asana，使其易于与其他工作流程结合使用。</p>
+<p>总体而言，WebCull 是一款功能强大且用户友好的书签管理器，可以帮助我们在在线工作时节省时间并保持井井有条。如果我们正在寻找更好的方式来管理书签，WebCull 绝对值得一试。</p>
+<p>支持的平台：Chrome、Firefox、Opera、Brave、Edge 的扩展。</p>
+<p>官方网站：https://webcull.com/</p>
+<p>Grepmark</p>
+<p>Grepmark 是一款独特且创新的书签管理器，为传统书签体验提供了新的视角。</p>
+<p>通过使用聊天室风格的界面并允许用户与朋友共享链接和评论，Grepmark 为书签提供了社交功能，有助于协作和讨论。</p>
+<p>其基于渠道的组织以及在渠道之间移动链接的能力也使我们可以轻松地组织书签并确保它们位于正确的位置。</p>
+<p>此外，它的搜索和最近评论功能可以让我们轻松找到特定链接并跟踪频道中发生的事情。如果我们正在寻找一种新的、不同的方式来管理书签，Grepmark 绝对值得一试。</p>
+<p>支持的平台：适用于 Windows、macOS、Linux 的应用程序。</p>
+<p>官方网站：https://www.grepmark.com/</p>
+<p>Elink.io</p>
+<p>书签管理本质上只是该解决方案功能的一小部分。当然，我们只能使用这一部分，特别是因为链接的使用是免费且没有任何限制的。</p>
+<p>另外两个部分是内容的收集和处理的自动化。简而言之，任何使用内置模板的链接集合都可以设计成为网站或新闻通讯的自动发布流程。但由于这超出了我们的主题范围，所以我们在这里不考虑它们。有什么可用于处理书签？</p>
+<p>所有书签都可以组织在文件夹和子文件夹中，能够编辑标题、描述、注释、可见和内部标签，我们可以通过它们搜索和排序链接。</p>
+<p>保存链接时，elink 允许我们从要保存的页面中选择任何图片，自动创建该页面的屏幕截图并将其保存为链接图像，或从设备上传任何图像。这种可视化使我们可以轻松识别所需的链接。</p>
+<p>书签集合可以显示为图像或列表，可以按标题、关键字、内容类型、标签、日期和其他元素进行搜索和过滤。搜索效果很好，可以让我们快速找到所需的链接。</p>
+<p>支持的平台：Chrome、Firefox、Brave 和 Edge 的扩展。</p>
+<p>官方网站：https://elink.io/</p>
+<p>Tixio.io</p>
+<p>Tixio.io 是一个视觉上令人愉悦且功能强大的书签管理器。我们可以更快、更轻松地添加无限书签。我们可以将它们添加到多个板、文件夹和集合中。从简单到复杂的书签管理，Tixio 可以扩展到任何内容。</p>
+<p>用户每天可以添加无数的书签，并根据性质或使用频率将它们组织成集合。书签工具可以定制，使其更加丰富多彩和个性化。另外，所有链接都可以与团队共享或通过共享链接公开。</p>
+<p>不要分享单个链接，而是创建一个收藏/图板并随时与任何人分享！ 这是Tixio的一个特色。</p>
+<p>此外，想象一下是否可以直接保存浏览器打开的选项卡？ Tixio 为我们提供了这个选择。添加了快速保存扩展后，我们只需单击一下即可保存所有打开的浏览器选项卡，并将它们变成书签集合。（火箭君注：这就是 前文提到的 Toby Session）</p>
+<p>我们可以轻松地打开所有必要的选项卡来开始新的一天，想想这样我们可以节省多少时间！不仅是书签，我们还可以保存笔记、清单、嵌入网页、RSS 源等等！</p>
+<p>支持的平台：Chrome、Firefox、Edge 的扩展。</p>
+<p>官方网站：https://tixio.io/bookmark-manager/</p>
+<p>xTiles</p>
+<p>xTiles 是直观地组织我们的想法和项目的终极解决方案。其直观的界面使我们可以轻松地使用要保存的链接和内容创建个人布局。</p>
+<p>（火箭君注：我以前介绍过这款工具，作为一个项目笔记或看板工具，没想到其实用来做书签管理也非常棒！）</p>
+<p>无论是在开展研究项目、计划假期，还是只是想保持井井有条，xTiles 都能为我们提供完成任务所需的工具。</p>
+<p>xTiles 的其他主要功能之一是它能够自定义书签的外观。我们可以从一系列内置主题中进行选择，也可以创建自己的自定义主题，还可以自定义图块的外观和感觉以匹配个人风格。<br>
+这使我们可以制作自己的 xTiles，并根据我们的特定需求和偏好进行定制。例如：将Youtube视频直接嵌入书签看板。</p>
+<p>支持的平台：适用于 Windows 和 macOS 的桌面应用程序、适用于 iOS 和 Android 的移动应用程序、适用于主要浏览器的扩展。</p>
+<p>官方网站：https://xtiles.app/en</p>
+<p>更多<br>
+在寻找新的书签管理器时，以下是可能需要考虑的其它解决方案的一些链接（包括被火箭君在正文过滤掉的部分）：</p>
+<p>https://www.diigo.com/<br>
+https://booky.io<br>
+https://www.tatatap.com/bookmarks/<br>
+https://brace.to/<br>
+https://saved.io/<br>
+https://linkin.link/en<br>
+https://linkstore.app/<br>
+https://atavi.com/about<br>
+https://www.bookmax.net/</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://Tumao0.github.io/post/fu-ren-si-wei-de-shi-liu-chong-biao-xian/" class="post-title gt-a-link">
+                    富人思维的十六种表现
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '',
+		appKey: '',
+		avatar: '',
+		pageSize: 5,
+		recordIp: false,
+		placeholder: 'Just Go Go',
+		visitor: false,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">算不尽芸芸众生微贱命，回头看五味杂陈奈何天</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://Tumao0.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

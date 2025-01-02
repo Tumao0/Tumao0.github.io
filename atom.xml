@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Tumao0.github.io</id>
+    <title>Tumao</title>
+    <updated>2025-01-02T04:59:00.057Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Tumao0.github.io"/>
+    <link rel="self" href="https://Tumao0.github.io/atom.xml"/>
+    <subtitle>算不尽芸芸众生微贱命，回头看五味杂陈奈何天</subtitle>
+    <logo>https://Tumao0.github.io/images/avatar.png</logo>
+    <icon>https://Tumao0.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, Tumao</rights>
+    <entry>
+        <title type="html"><![CDATA[耐心的奖励 Firefly Card]]></title>
+        <id>https://Tumao0.github.io/post/nai-xin-de-jiang-li-firefly-card/</id>
+        <link href="https://Tumao0.github.io/post/nai-xin-de-jiang-li-firefly-card/">
+        </link>
+        <updated>2025-01-02T00:47:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你可能是一个 NPC]]></title>
+        <id>https://Tumao0.github.io/post/ni-ke-neng-shi-yi-ge-npc/</id>
+        <link href="https://Tumao0.github.io/post/ni-ke-neng-shi-yi-ge-npc/">
+        </link>
+        <updated>2024-12-28T03:55:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[拜登、川普、哈里斯和万斯，谁的资产配置更合理？]]></title>
+        <id>https://Tumao0.github.io/post/bai-deng-chuan-pu-ha-li-si-he-wan-si-shui-de-zi-chan-pei-zhi-geng-he-li/</id>
+        <link href="https://Tumao0.github.io/post/bai-deng-chuan-pu-ha-li-si-he-wan-si-shui-de-zi-chan-pei-zhi-geng-he-li/">
+        </link>
+        <updated>2024-12-24T04:00:03.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[帕累托分布和price law]]></title>
+        <id>https://Tumao0.github.io/post/pa-lei-tuo-fen-bu-he-price-law/</id>
+        <link href="https://Tumao0.github.io/post/pa-lei-tuo-fen-bu-he-price-law/">
+        </link>
+        <updated>2024-12-21T10:59:02.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大坑和小铲子 作者：阮一峰]]></title>
+        <id>https://Tumao0.github.io/post/da-keng-he-xiao-chan-zi-zuo-zhe-ruan-yi-feng/</id>
+        <link href="https://Tumao0.github.io/post/da-keng-he-xiao-chan-zi-zuo-zhe-ruan-yi-feng/">
+        </link>
+        <updated>2024-12-16T11:54:02.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[印度网友通过法拉第笼和微波炉绕过苹果限制为AirPods Pro开启助听器功能]]></title>
+        <id>https://Tumao0.github.io/post/yin-du-wang-you-tong-guo-fa-la-di-long-he-wei-bo-lu-rao-guo-ping-guo-xian-zhi-wei-airpods-pro-kai-qi-zhu-ting-qi-gong-neng/</id>
+        <link href="https://Tumao0.github.io/post/yin-du-wang-you-tong-guo-fa-la-di-long-he-wei-bo-lu-rao-guo-ping-guo-xian-zhi-wei-airpods-pro-kai-qi-zhu-ting-qi-gong-neng/">
+        </link>
+        <updated>2024-11-14T17:51:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图片]]></title>
+        <id>https://Tumao0.github.io/post/tu-pian/</id>
+        <link href="https://Tumao0.github.io/post/tu-pian/">
+        </link>
+        <updated>2024-10-07T09:37:39.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】我心目中 2023 最佳网页书签管理器]]></title>
+        <id>https://Tumao0.github.io/post/yi-wo-xin-mu-zhong-2023-zui-jia-wang-ye-shu-qian-guan-li-qi/</id>
+        <link href="https://Tumao0.github.io/post/yi-wo-xin-mu-zhong-2023-zui-jia-wang-ye-shu-qian-guan-li-qi/">
+        </link>
+        <updated>2024-02-14T11:09:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富人思维的十六种表现]]></title>
+        <id>https://Tumao0.github.io/post/fu-ren-si-wei-de-shi-liu-chong-biao-xian/</id>
+        <link href="https://Tumao0.github.io/post/fu-ren-si-wei-de-shi-liu-chong-biao-xian/">
+        </link>
+        <updated>2024-01-25T08:59:38.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我要尝试一下，是否好用]]></title>
+        <id>https://Tumao0.github.io/post/wo-yao-chang-shi-yi-xia-shi-fou-hao-yong/</id>
+        <link href="https://Tumao0.github.io/post/wo-yao-chang-shi-yi-xia-shi-fou-hao-yong/">
+        </link>
+        <updated>2024-01-22T01:44:50.000Z</updated>
+    </entry>
+</feed>
